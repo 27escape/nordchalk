@@ -1,0 +1,16 @@
+{
+  "name": "nordchalk",
+  "version": "0.1.0",
+  "description": "Nord theme colors for the terminal with the help of chalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nord",
+    "terminal",
+    "chalk"
+  ],
+  "author": "Kevin Mulholland",
+  "license": "ISC"
+}
