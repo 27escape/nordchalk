@@ -1,6 +1,6 @@
 {
   "name": "nordchalk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nord theme colors for the terminal with the help of chalk",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,14 @@
     "terminal",
     "chalk"
   ],
+  "homepage": "https://github.com/27escape/nordchalk#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/27escape/nordchalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/27escape/nordchalk/issues"
+  },
   "author": "Kevin Mulholland",
   "license": "MIT"
 }
