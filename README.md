@@ -1,4 +1,4 @@
-# Nordchalk
+# nordchalk
 
 This mashup of [chalk](https://www.npmjs.com/package/chalk) and [Nord](https://www.nordtheme.com/) exists to make it easier to use Nord theme colors when creating command line applications. Its a thin wrapper around chalk, you may be able to manage without it. Nordchalk is not affliated with either of these projects.
 
@@ -17,12 +17,13 @@ const nordchalk = require( 'nordchalk');
 console.log( nordchalk.aurora0( 'Hello world!'));
 ```
 
-As it is a thin wrapper around chalk, you still have access to all of the chalk extras but these need to come **AFTER** the color name.
+As it is a thin wrapper around chalk, you still have access to all of the chalk styles (bold, underline etc) but these need to come **AFTER** the color name. It is **NOT** possible to chain the nord colors unfortunately, though you can chain the normal chalk colors (red, green, bgRed etc).
 
 ```js
 const nordchalk = require( 'nordchalk');
 
 console.log( nordchalk.aurora0.bold( 'Hello world!'));
+console.log( nordchalk.bgsnowstorm1.red( 'snowstorm background with red text!'));
 ```
 
 I will often assign the colors to a variable that better describes its use and this makes it easier to change the colors if I need to
