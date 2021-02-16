@@ -1,6 +1,6 @@
 {
   "name": "nordchalk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nord theme colors for the terminal with the help of chalk",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
     "chalk"
   ],
   "author": "Kevin Mulholland",
-  "license": "ISC"
+  "license": "MIT"
 }
