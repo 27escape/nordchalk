@@ -120,7 +120,7 @@ module.exports = {
   snowstorm2: nord6,
 
   bgSnowstorm0: bgNord4,
-  bgSnowsorm1: bgNord5,
+  bgSnowstorm1: bgNord5,
   bgSnowstorm2: bgNord6,
 
   frost0: nord7,
